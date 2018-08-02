@@ -6,4 +6,4 @@ set -e
 # docker pull marekchen/flutter:base
 
 # docker build --tag marekchen/flutter:base base
-docker build --tag marekchen/flutter:0.5.7 --tag marekchen/flutter:latest
+docker build --tag marekchen/flutter:0.5.7 --tag marekchen/flutter:latest ./
