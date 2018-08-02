@@ -1,0 +1,12 @@
+version: 2
+jobs:
+ build:
+   machine: true
+   steps:
+     - checkout
+
+     # build the application image
+     - run: ./build_docker.sh
+
+     # deploy the image
+     - run: ./push_docker.sh
