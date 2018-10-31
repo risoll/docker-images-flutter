@@ -4,6 +4,6 @@ set -e
 
 docker login --username $DOCKER_USER_NAME --password $DOCKER_PASSWORD
 
-# docker push kwmt/flutter:base
-docker push kwmt/flutter:0.10.1-temp
-docker push kwmt/flutter:latest
+# docker push risol/flutter:base
+docker push risol/flutter:0.9.4
+docker push risol/flutter:latest

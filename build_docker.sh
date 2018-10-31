@@ -3,7 +3,7 @@
 set -e
 
 # pull to make sure we are not rebuilding for nothing
-# docker pull kwmt/flutter:base
+# docker pull risol/flutter:base
 
-# docker build --tag kwmt/flutter:base base
-docker build --tag kwmt/flutter:0.10.1-temp  --tag kwmt/flutter:latest ./
+# docker build --tag risol/flutter:base base
+docker build --tag risol/flutter:0.9.4  --tag risol/flutter:latest ./
