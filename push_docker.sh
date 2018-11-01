@@ -2,7 +2,7 @@
 
 set -e
 
-docker login --username $DOCKER_USER_NAME --password $DOCKER_PASSWORD
+docker login
 
 # docker push risol/flutter:base
 docker push risol/flutter:0.9.4
