@@ -16,10 +16,5 @@ RUN git clone --branch v${FLUTTER_VERSION} https://github.com/flutter/flutter.gi
 
 ENV PATH ${PATH}:${FLUTTER_HOME}/bin:${FLUTTER_HOME}/bin/cache/dart-sdk/bin
 
-# 暫定対応 flutter 0.10.1はgoogle()に対応してないため
-# TODO: 以降のバージョンで対応された削除すること
-COPY flutter.gradle ${FLUTTER_HOME}/packages/flutter_tools/gradle/flutter.gradle
-
-
 # doctor
 RUN flutter doctor
